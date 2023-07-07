@@ -13,7 +13,15 @@ header {
     font-size: 30px;
     font-weight: 700;
 }
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: 500px;
+}
 .container-1 {
+    float:left;
     padding-top: 50px;
     min-width: 200px;
     max-width: 500px;
@@ -35,4 +43,13 @@ header {
     border-radius: 8px;
     
 }
+ .image {
+    float: right;
+ }
 
+ .image img {
+    height: 500px;
+    width: auto;
+ }
+ 
+ 
