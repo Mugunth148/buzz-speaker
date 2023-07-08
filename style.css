@@ -1,55 +1,94 @@
-body {
+/* general */
+* {
     margin: 0%;
-    padding-left: 40px;
-    padding-right: 40px;
-    background: lightgray;
+    padding: 0;
+    overflow: hidden;
+    background: #fff;
+    font-family: sans-serif;
 }
+
+/* Header starts */
 header {
-    background: red;
-    width: auto;
-    padding: 10px;
-    margin: 10px;
-    text-align:start;
+    background: lightpink;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
     font-size: 30px;
     font-weight: 700;
 }
+/* Header ends */
 
-.main-container {
+/* main container */
+.main {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
-    height: 500px;
+    justify-content:space-around;
+    align-items: center;
+    height: 90vh;
+    gap: 100px;
 }
+/* main container ends */
+/* container 1 starts */
+.container-1, .heading, .sub-heading {
+    background-color: antiquewhite;
+}                                                                                                                               
 .container-1 {
-    float:left;
-    padding-top: 50px;
-    min-width: 200px;
-    max-width: 500px;
-    height: auto;
+    height: 70vh;
+    width: 40vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
     border-radius: 50px;
-    background: coral;
+    transition: 1s;
 }
 
 .heading {
-    padding: 20px;
-    display: flex;
-    align-items: center;
+    padding-top: 20px;
+    font-size: large;
+    width: 70%;
+} 
 
+.sub-heading {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 22px;
 }
-.fix-btn {
-    display: flex;
-    justify-content:center;
-    padding: 5px;
-    border-radius: 8px;
-    
-}
- .image {
-    float: right;
- }
-
- .image img {
-    height: 500px;
-    width: auto;
- }
  
+.fix-btn {
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    height: 60px;
+    width: 120px;
+    border: 0;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+.fix-btn:hover {
+    background-color: lightblue;
+    cursor: pointer;
+    font-size: 25px;
+    height: 80px;
+    width: 150px;
+    margin-top: 40px;
+    transition: 1s;
+}
+
+h2 {
+    background: antiquewhite;
+}
+/* container 1 ends */
+/* container 2 starts */
+ .container-2 {
+    height: 70vh;
+    width: 40vw;
+    background-color: aqua;
+ }
+/* container 2 ends */
+
  
