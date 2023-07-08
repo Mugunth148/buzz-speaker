@@ -98,6 +98,7 @@ header {
  .container-2 {
     height: 70vh;
     width: 40vw;
+    background-image: url(/images/phone.png) center;
 
  }
 
@@ -105,7 +106,6 @@ header {
     padding-left: 120px;
     height: 100%;
     width: auto;
-    hue-rotate: 180deg;
  }
 /* container 2 ends */
 
