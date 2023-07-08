@@ -83,8 +83,10 @@ header {
 }
 
 .fix-btn:hover {
-    background-color: pink;
+    background-color: transparent;
     cursor: pointer;
+    border: 1px solid #fff;
+    color: #fff;
     font-size: 25px;
     height: 80px;
     width: 150px;
