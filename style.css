@@ -98,7 +98,7 @@ header {
  .container-2 {
     height: 70vh;
     width: 40vw;
-    background-image: url(/images/phone.png) center;
+    background-image: url(file:///F:/VS%20Code%20Projects/buzz-speaker/images/phone.png) center;
 
  }
 
@@ -106,6 +106,7 @@ header {
     padding-left: 120px;
     height: 100%;
     width: auto;
+    display: block;
  }
 /* container 2 ends */
 
