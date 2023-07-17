@@ -1,0 +1,186 @@
+.button {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    height: 60px;
+    width: 120px;
+ 
+    border-radius: 50px;
+    transition: 0.8s;
+    background: violet;
+	
+
+}
+
+.button:hover {
+    background-color: lightpink;
+	border: 2px;
+    cursor: pointer;
+    font-size: 25px;
+	font-weight: 400;
+    height: 80px;
+    width: 150px;
+    margin-top: 40px;
+    transition: 0.8s;
+} 
+
+
+.button p {
+	margin: auto;
+	padding: 20px;
+	font-size: 20px;
+	transition: 0.8s;
+}
+
+.button p:hover {
+	transition: 0.8s;
+	font-size: 30px;
+	margin-top: 7px;
+}
+
+
+/* general */
+* {
+    margin: 0%;
+    padding: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+body {
+    background:
+    url(https://images.unsplash.com/photo-1636956040469-fec02ed01ab5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80)
+    center / cover no-repeat fixed;
+}
+
+
+/* Header starts */
+header {
+   
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.35);
+     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+}
+/* Header ends */
+
+/* main container */
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    height: 90vh;
+    gap: 100px;
+}
+/* main container ends */
+/* container 1 starts */
+/*                                                                                                                                */
+.container-1 {
+    height: 70vh;
+    width: 40vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s;
+    color: aliceblue;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 70px;
+     background-color: rgba(255, 255, 255, 0.1\25);
+     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(15px);
+}
+
+.heading {
+    padding-top: 20px;
+    font-size: large;
+    width: 70%;
+} 
+
+.sub-heading {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 22px;
+}
+ 
+
+
+
+/* container 1 ends */
+/* container 2 starts */
+ .container-2 {
+    height: 70vh;
+    width: 40vw;
+    background-image: url(assets/phone.png) center;
+
+ }
+
+ img {
+    padding-left: 120px;
+    height: 100%;
+    width: auto;
+ }
+/* container 2 ends */
+
+ @media screen and (max-width: 768px) {
+    .main {display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+ }
+
+ .container-1 {
+    margin-top: 55px;
+    padding-left: 10px;
+    height: 120vh;
+    width: 80vw;
+    border-radius: 70px;
+ }
+  .heading {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    width: 70%;
+  }
+ .sub-heading {
+    padding-left: 8px;
+    padding-right: 10px;
+    font-size: 18px;
+ }
+ 
+    .button:hover {
+        margin-top: 30px;
+        background-color: violet;
+        font-size: 20px;
+        height: 50px;
+        width: 100px;
+    }
+
+	.button p:hover {
+		font-size: x-large;
+		marging: 0;
+		margin-top: 13px;
+		padding: 0;
+	}
+
+   .container-2 {
+    height: 70vh;
+    width:100%;
+    padding-bottom: 30px;
+    background: url(https://i.gifer.com/YdBO.gif) center;
+    background-size: cover;
+}
+img {
+    display: none;
+}

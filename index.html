@@ -1,11 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buzz-Speaker</title>
-    <link rel="stylesheet" href="style.css">
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>buzz-speaker</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Phone Cleaner Play">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:900">
+  <script>
+			var snd = new Audio("assets/audio.wav");
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHHL4EGZGL"></script>
+
 </head>
 <body>
     <!--header-->
@@ -23,18 +27,15 @@
        <p class="sub-heading">Here's Buzz-Speaker helps to fix you phone's speaker
         by playing a Ultra low frequency audio, Which remove's all kinds of dust particals and water stucked into your
         speaker.</p>
-        <audio id="audio" src="/audio.wav"></audio>
-        <button class="fix-btn" id="button">
-            Fix Buzz    
-        </button>
+        <div class="button">
+          <a onclick="snd.play()"><p>Fix</p></a>
+        </div>
     </div>
 <!-- end container 1 -->
 <!-- start container 2 -->
     <div class="container-2">
-<img src="/phone.png" alt="Buzz speaker">
+<img src="assets/phone.png" alt="Buzz speaker">
     </div>
  <!-- end container 2 -->
 </div>
-<script src="/main.js"></script>
-</body>
-</html>
+</body></html>
